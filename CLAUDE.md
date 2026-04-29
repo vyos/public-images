@@ -34,7 +34,3 @@ No mirror twin. Lives only in `vyos`.
 
 - This is effectively a placeholder. If image-distribution metadata (manifests, signing keys, release notes) is to live in git, this is the natural home — but coordinate with `vyos-nightly-build` (which already publishes minisign-signed releases) before duplicating.
 - No branch protection on default branch (audit baseline 2026-04-18). Treat any new content as needing fresh repo settings.
-
----
-
-This file is mirrored on Confluence: [`vyos/public-images`](https://internal.confluence.vyos.com/wiki/spaces/VYOS/pages/818020540). The Confluence page also carries the per-repo audit data (settings, workflows, secret counts, hygiene) that complements this CLAUDE.md. Edit either side; resync via the documentation pipeline.
